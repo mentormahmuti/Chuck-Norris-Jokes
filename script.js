@@ -20,3 +20,4 @@ function randomChuckNorrisJoke() {
 }
 
 jokeGeneratorButton.addEventListener('click', randomChuckNorrisJoke);
+document.addEventListener('DOMContentLoaded', randomChuckNorrisJoke);
